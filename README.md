@@ -16,6 +16,7 @@
 
 - Windows 10 / 11
 - Python 3.8 或更高版本
+- Git 2.x（用于版本管理）
 - 不需要安装第三方库，只使用了 Python 自带的 `random` 模块
 
 ## 如何运行
@@ -97,6 +98,19 @@ git status
 git add .
 git commit -m "提交说明"
 git log --oneline
+```
+
+## GitHub 仓库
+
+- 在线地址：<https://github.com/ovojiekou/guess-number-game>
+- 默认分支：`main`
+
+仓库由 Git 初始化，并通过 GitHub CLI 推送到 GitHub。提交代码的流程是：
+
+```bat
+git add .
+git commit -m "描述这次修改"
+git push
 ```
 
 ## 作者
